@@ -47,7 +47,7 @@ function is_get_request(){
 function display_errors($errors=array()) {
     $output = '';
     if(!empty($errors)) {
-        $output .= "<div class=\"error\">";
+        $output .= "<div class=\"errors\">";
         $output .= "Please fix the following errors:";
         $output .= "<ul>";
         foreach ($errors as $error) {
